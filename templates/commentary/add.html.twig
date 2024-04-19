@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CommentaryController!{% endblock %}
+
+{% block body %}
+{{ form(formulaire) }}
+<button type="submit">Ajouter</button>
+{% include "_components/_toast.html.twig" %}
+{% endblock %}

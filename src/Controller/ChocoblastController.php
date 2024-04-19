@@ -100,3 +100,4 @@ class ChocoblastController extends AbstractController
         return $this->render('chocoblast/topGraph.html.twig');
     }
 }
+   
